@@ -7,6 +7,8 @@ module.exports = {
 
     const [count] = await connection("incidents").count("id");
 
+    console.log("Entrou aqui, page: " + page);
+
     const incidents = await connection("incidents")
       .join("ongs", "ongs.id", "=", "incidents.ong_id")
       .limit(5)
@@ -18,7 +20,8 @@ module.exports = {
         "ongs.whatsapp",
         "ongs.city",
         "ongs.uf"
-      ]);
+      ])
+      .orderBy("id", "desc");
 
     res.header("X-Total-Count", count["count(`id`)"]);
 

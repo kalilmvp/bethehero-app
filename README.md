@@ -11,7 +11,15 @@
 ## FrontEnd- Technogies used
 
 - React JS
-- React Native
+- React Router
+- Featcher Icons
 - Axios
 
+## Mobile- Technogies used
 
+- React Native
+- React Native Router
+- Expo
+- Axios
+- Deep Linking with Whatsapp
+- Expo Mail Composer
