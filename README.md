@@ -1,4 +1,4 @@
-# The Hero App
+# Be The Hero App
 
 > This project is inspired on the Semana Omnistack 11, which happens multiple times per year, where the company Rocketseat (https://rocketseat.com.br/) develops a full-fledged application using the OmniStack (Node.js, React and ReactNative).
 
