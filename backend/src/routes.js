@@ -8,7 +8,15 @@ const SessionController = require("./controllers/SessionController");
 const routes = express.Router();
 
 //login
-routes.post("/sessions", SessionController.store);
+routes.post(
+  "/sessions",
+  celebrate({
+    [Segments.BODY]: Joi.object().keys({
+      id: Joi.string().required()
+    })
+  }),
+  SessionController.store
+);
 
 //profile
 routes.get(
