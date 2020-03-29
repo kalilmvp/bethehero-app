@@ -1,7 +1,7 @@
 # Be The Hero App
 
 <p align="center">
-  <img src="/Users/kalilmvp/Documents/Development/workspace_novosprojetos/rocketseat/semana_omnistack/11-BeTheHeroApp/mobile/src/assets/logo@3x.png" height="100" width="190" alt="Unform" />
+  <img src="https://ibin.co/5HKWcNelKaBT.png" height="100" width="180" alt="Unform" />
 </p>
 
 <br/>
