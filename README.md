@@ -7,6 +7,8 @@
 - Node.js
 - Knex
 - SQLite3
+- Added validation with Celebrate API
+- TDD with Jest / Supertest / CrossEnv ( Unit and Integratin Tests)
 
 ## FrontEnd- Technogies used
 
