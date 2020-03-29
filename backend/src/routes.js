@@ -39,6 +39,7 @@ routes.post(
       email: Joi.string()
         .required()
         .email(),
+      whatsapp: Joi.string().required(),
       city: Joi.string().required(),
       uf: Joi.string()
         .required()
