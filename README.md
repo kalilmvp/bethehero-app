@@ -8,7 +8,17 @@
   
 > This project is inspired on the Semana Omnistack 11, which happens multiple times per year, where the company Rocketseat (https://rocketseat.com.br/) develops a full-fledged application using the OmniStack (Node.js, React and ReactNative).
 
-## Backend- Technogies used
+## Backend
+
+To run the backend, execute this command:
+
+```
+cd backend
+npm install
+npm start
+```
+
+Technologies used
 
 - Node.js
 - Knex
@@ -16,14 +26,35 @@
 - Added validation with Celebrate API
 - TDD with Jest / Supertest / CrossEnv ( Unit and Integratin Tests)
 
-## FrontEnd- Technogies used
+## FrontEnd
+
+To run the frontend, execute this command:
+<br />
+
+```
+cd frontend
+yarn install
+yarn start
+```
+
+Technologies used
 
 - React JS
 - React Router
 - Featcher Icons
 - Axios
 
-## Mobile- Technogies used
+## Mobile
+
+To run the mobile app, execute this command:
+
+```
+cd mobile
+yarn install
+yarn start
+```
+
+Technologies used
 
 - React Native
 - React Native Router
