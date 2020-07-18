@@ -1,7 +1,7 @@
 # Be The Hero App
 
 <p align="center">
-  <img src="https://ibin.co/5HKWcNelKaBT.png" height="100" width="180" alt="Unform" />
+  <img src="./frontend/src/assets/logo.svg" height="100" width="180" alt="Unform" />
 </p>
 
 <br/>
